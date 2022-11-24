@@ -1,3 +1,4 @@
+# implementation from https://github.com/lucidrains/performer-pytorch
 import math
 import torch
 import torch.nn.functional as F

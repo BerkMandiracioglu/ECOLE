@@ -5,6 +5,10 @@
 
 > ECOLÉ is a deep learning based software that performs CNV call predictions on WES data using read depth sequences.
 
+> The manuscript can be found here:  <a href="https://www.biorxiv.org/content/10.1101/2022.11.17.516880v1" target="_blank">**ECOLÉ: Learning to call copy number variants on whole exome sequencing data**</a>
+
+> The repository with the necessary data and scripts to reproduce the results in the paper can be found here: <a href="https://zenodo.org/record/7317266#.Y3F0jS8w1hE" target="_blank">**ECOLE results reproduction**</a>
+
 > <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">**Deep Learning**</a>, <a href="https://en.wikipedia.org/wiki/Copy-number_variation" target="_blank">**Copy Number Variation**</a>, <a href="https://en.wikipedia.org/wiki/Exome_sequencing" target="_blank">**Whole Exome Sequencing**</a>
 
 
@@ -40,7 +44,7 @@ Berk Mandiracioglu, Furkan Ozden, Can Alkan, A. Ercument Cicek
 
 ## Installation
 
-- ECOLÉ is a python3 script and it is easy to run after the required oackages are installed.
+- ECOLÉ is a python3 script and it is easy to run after the required packages are installed.
 
 ### Requirements
 
@@ -51,6 +55,7 @@ $ conda env create --name ecole_env -f ECOLE_environment.yml
 $ conda activate ecole_env
 ```
 
+Note that the provided environment yml file is for Linux systems. For MacOS users, the corresponding versions of the packages might need to be changed.
 ---
 
 ## Features
